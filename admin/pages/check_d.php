@@ -2,7 +2,7 @@
     
     class check_d{
         function __construct(){
-            $this -> db = mysqli_connect("localhost","check","wabadmin1","check");
+            $this -> db = mysqli_connect("数据库地址","数据库用户名","数据库密码","数据库名");
         }
         function get_list_no($check_name){
             $this -> command = "select * from $check_name where state=' '";

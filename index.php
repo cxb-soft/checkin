@@ -2,7 +2,7 @@
     
     class db_go{
         function __construct(){
-            $this -> db = mysqli_connect("localhost" , "check" , "wabadmin1" , "check");
+            $this -> db = mysqli_connect("数据库地址" , "数据库用户" , "数据库密码" , "数据库名");
         }
         function selector_c($class){
             $this -> selector_command = "select * from titles where class='$class'";

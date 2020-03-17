@@ -2,7 +2,7 @@
     
     class new_check{
         function __construct(){
-            $this -> db = mysqli_connect("localhost","check","wabadmin1","check");
+            $this -> db = mysqli_connect("数据库地址","数据库用户名","数据库密码","数据库名");
             $this -> date_now = date("Y-m-d");
         }
         function create_table($table_name,$checker,$class,$sub){

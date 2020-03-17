@@ -2,7 +2,7 @@
     
     /*class new_check{
         function __construct(){
-            $this -> db = mysqli_connect("localhost","check","wabadmin1","check");
+            $this -> db = mysqli_connect("","","","");
         }
     }*/
     
